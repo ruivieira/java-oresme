@@ -4,6 +4,7 @@
 ![](docs/oresme.jpg)
 
 A collection of utility methods I find myself using frequently packaged as a reusable Java library.
+API documentation can be found [here](https://ruivieira.github.io/java-oresme/).
 
 ## Collections
 
