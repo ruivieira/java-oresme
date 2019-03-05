@@ -10,6 +10,10 @@ API documentation can be found [here](https://ruivieira.github.io/java-oresme/).
 
 * `tail`, `head`
 
+## Data structures
+
+* Typed tuples (`Pair<A, B>`)
+
 ## Sampling / distributions
 
 * `randomIntUnique` - sequence of unique random integers
