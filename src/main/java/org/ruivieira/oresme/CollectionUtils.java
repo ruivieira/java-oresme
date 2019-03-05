@@ -6,7 +6,11 @@ import java.util.List;
 public class CollectionUtils {
 
     public static <E> List<E> tail(List<E> data, int n) {
-        return data.subList(data.size() - n - 1, n - 1);
+        return data.subList(data.size() - n, data.size());
+    }
+
+    public static <E> List<E> head(List<E> data, int n) {
+        return data.subList(0, n);
     }
 
     public static String pprint(double[][] data) {
