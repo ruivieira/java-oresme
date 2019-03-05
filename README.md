@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ruivieira/java-oresme.svg?branch=master)](https://travis-ci.org/ruivieira/java-oresme)
 # java-oresme
 
 ![](docs/oresme.jpg)
