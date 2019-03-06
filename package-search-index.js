@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"org.ruivieira.oresme"},{"l":"org.ruivieira.oresme.linalg"}]

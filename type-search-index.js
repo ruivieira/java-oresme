@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.ruivieira.oresme","l":"CollectionUtils"},{"p":"org.ruivieira.oresme.linalg","l":"MatrixCoordinate"},{"p":"org.ruivieira.oresme.linalg","l":"MatrixEntryDouble"},{"p":"org.ruivieira.oresme","l":"Pair"},{"p":"org.ruivieira.oresme","l":"Samples"}]
