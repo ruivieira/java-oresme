@@ -9,6 +9,7 @@ API documentation can be found [here](https://ruivieira.github.io/java-oresme/).
 ## Collections
 
 * `tail`, `head`
+* `chunk` - partition collections by size
 
 ## Data structures
 

@@ -1,5 +1,6 @@
 package org.ruivieira.oresme;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.List;
@@ -25,5 +26,14 @@ public class CollectionUtilsTest {
 
     @Test
     public void pprint() {
+    }
+
+    @Test
+    public void chunk() {
+        final List<Integer> samples = Samples.randomIntUnique(101, 101);
+        final List<List<Integer>> chunks = CollectionUtils.chunk(samples, 5);
+        Assert.assertEquals(chunks.size(), 21);
+        Assert.assertEquals(chunks.get(0).size(), 5);
+        Assert.assertEquals(CollectionUtils.tail(chunks, 1).size(), 1);
     }
 }

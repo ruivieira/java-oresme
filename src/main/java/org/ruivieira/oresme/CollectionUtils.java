@@ -1,5 +1,6 @@
 package org.ruivieira.oresme;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -21,6 +22,21 @@ public class CollectionUtils {
             counter++;
         }
         return result.toString();
+    }
+
+    /**
+     * Divides a list into sublists of size <code>chunkSize</code>
+     * @param data Original {@link List}
+     * @param chunkSize The sublist size
+     * @return A {@link List} of {@link List}s.
+     */
+    public static <E> List<List<E>> chunk(List<E> data, int chunkSize) {
+        final List<List<E>> result = new ArrayList<>();
+        for (int i = 0; i < data.size(); i += chunkSize) {
+            int boundary = Math.min(i + chunkSize, data.size());
+            result.add(data.subList(i, boundary));
+        }
+        return result;
     }
 
 }
