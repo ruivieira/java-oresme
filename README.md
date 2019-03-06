@@ -14,6 +14,10 @@ API documentation can be found [here](https://ruivieira.github.io/java-oresme/).
 
 * Typed tuples (`Pair<A, B>`)
 
+## Linear algebra
+
+* Matrix coordinate (`MatrixCoordinate`) and entry (`MatrixEntryDouble`) types
+
 ## Sampling / distributions
 
 * `randomIntUnique` - sequence of unique random integers
